@@ -33,8 +33,11 @@ namespace cLass
             Console.WriteLine("Sikdiroza");
             Console.ReadLine();
         }*/
+<<<<<<< HEAD
         
         
+=======
+>>>>>>> origin/main
 
         /*public string GetUzunluq()
         {
@@ -56,6 +59,7 @@ namespace cLass
         public double EN
         {
             get
+<<<<<<< HEAD
             {   
                 if (en>=1)
                 { return en; }
@@ -63,6 +67,20 @@ namespace cLass
                 else
                 { return geribil; }  
             }
+=======
+            {
+                if (en>=1)
+                {
+                    return en;
+                }
+                else
+                {
+
+                    return geribil; 
+                } 
+            }
+
+>>>>>>> origin/main
             set
             {
                 this.en = value;
