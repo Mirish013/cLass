@@ -13,12 +13,41 @@ namespace cLass
         public static void Main(string[] args)
         {
 
-            Box b = new Box();
+            /*Box b = new Box();
             /*b.SetUzunluq(15555);
-            Console.WriteLine(b.GetUzunluq());*/
+            Console.WriteLine(b.GetUzunluq());#1#
 
             b.EN = -30;
-            Console.WriteLine(b.EN);
+            Console.WriteLine(b.EN);*/
+
+            testA M = new testA();
+            M.ProbA = 10;
+
+            testA.testB N = new testA.testB();
+            N.ProbB = 20;
+            
         }
+    }
+
+    class testA
+    {
+        public int ProbA { get; set; }
+
+        public testA()
+        {
+            Console.WriteLine("CLASSa");
+        }
+        
+        public class testB
+        {
+            public int ProbB { get; set; }
+
+            public testB()
+            {
+                Console.WriteLine("CLASSb");
+            }
+
+        }
+
     }
 }
